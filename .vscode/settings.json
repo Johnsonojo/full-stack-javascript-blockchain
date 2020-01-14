@@ -1,0 +1,4 @@
+{
+  "npm-intellisense.scanDevDependencies": true,
+  "editor.tabCompletion": "on"
+}
