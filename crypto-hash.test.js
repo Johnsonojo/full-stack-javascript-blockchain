@@ -2,10 +2,10 @@ const cryptoHash = require('./crypto.hash');
 
 describe('cryptoHash()', () => {
   const shaOutput =
-    'cef19622547f3effdd0f713d667e962215daaac9d6ec867fdbb68a33d1bf752c';
+    '0e90b114d4d67232220f7444ab9c02edfd3cc6d4678496f206cd304d8ecda3ce';
 
   it('should generate a sha-256 output', () => {
-    expect(cryptoHash('adesewa')).toEqual(shaOutput);
+    expect(cryptoHash('ademi')).toEqual(shaOutput);
   });
 
   it('produces the same hash with the same given inputs in any order', () => {
