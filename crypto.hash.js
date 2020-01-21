@@ -1,4 +1,3 @@
-const sha256 = require('sha256');
 const crypto = require('crypto');
 
 const cryptoHash = (...args) => {
